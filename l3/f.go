@@ -2,6 +2,7 @@ package l3
 
 import "leec"
 
+// 滑动窗口
 func lengthOfLongestSubstring(s string) int {
 	left, right := 0, 0
 	win := make(map[byte]int)
